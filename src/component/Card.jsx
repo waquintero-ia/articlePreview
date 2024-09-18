@@ -21,7 +21,9 @@ const Card = () =>{
           <ShareMain 
             handleClick={handleClick}/>
           {
-            share && <SharePopup />
+            share && 
+              <SharePopup 
+                handleClick={handleClick}/>
           }
           </div>
         </div>
