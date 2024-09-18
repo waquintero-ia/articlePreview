@@ -2,7 +2,9 @@ import ImageProfile from "./ImageProfile"
 import Share from "./Share"
 import DescriptionProfile from "./DescriptionProfile"
 
-const ShareMain = () =>{
+import PropTypes from 'prop-types';
+
+const ShareMain = ({handleClick}) =>{
   return(
     <>
       <div className="card_share flex justify-between items-center">
@@ -10,10 +12,15 @@ const ShareMain = () =>{
           <ImageProfile />
           <DescriptionProfile />
         </div>
-          <Share />
+          <Share 
+            handleClick={handleClick}/>
       </div>
     </>
   )
 }
+
+ShareMain.propTypes = {
+  handleClick: PropTypes.func.isRequired,
+};
 
 export default ShareMain
