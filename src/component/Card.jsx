@@ -19,7 +19,8 @@ const Card = () =>{
           <div className="card_description flex flex-col pt-[36px] px-[32px] pb-[20px] gap-[32px] md:w-[445px] md:px-[40px] md:gap-[20px]">
           <Description />
           <ShareMain 
-            handleClick={handleClick}/>
+            handleClick={handleClick} 
+            share={share} />
           {
             share && 
               <SharePopup 
