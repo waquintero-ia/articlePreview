@@ -9,21 +9,30 @@ const SharePopup = ({handleClick}) =>{
             <div className="links_title uppercase text-13 font-medium text-blue-700 tracking-[0.3125rem]">
               share
             </div>
-            <picture>
-              <img src="./images/icon-facebook.svg" alt="facebook" />
-            </picture>
-            <picture>
-              <img src="./images/icon-twitter.svg" alt="twitter" />
-            </picture>
-            <picture>
-              <img src="./images/icon-pinterest.svg" alt="pinterest" />
-            </picture>
+            <a href="">
+              <picture>
+                <img src="./images/icon-facebook.svg" alt="facebook" />
+              </picture>
+            </a>
+            
+            <a href="">
+              <picture>
+                <img src="./images/icon-twitter.svg" alt="twitter" />
+              </picture>
+            </a>
+            
+            <a href="">
+              <picture>
+                <img src="./images/icon-pinterest.svg" alt="pinterest" />
+              </picture>
+            </a>
+            
           </div>
-          <div className="share w-8 h-8 bg-blue-800 rounded-full flex justify-center items-center text-white md:hidden">
+          <button className="share w-8 h-8 bg-blue-800 rounded-full flex justify-center items-center text-white md:hidden focus:bg-inherit">
             <svg xmlns="http://www.w3.org/2000/svg" width="15" height="13">
               <path fill="currentColor" d="M15 6.495L8.766.014V3.88H7.441C3.33 3.88 0 7.039 0 10.936v2.049l.589-.612C2.59 10.294 5.422 9.11 8.39 9.11h.375v3.867L15 6.495z"/>
             </svg>
-          </div>
+          </button>
         </div>
         <div className="square hidden md:block absolute w-6 h-6 bg-blue-900 -bottom-3">
 
