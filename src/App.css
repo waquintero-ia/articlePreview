@@ -7,6 +7,10 @@ body {
   background-color: hsl(210, 46%, 95%);
 }
 
+.square{
+  transform: rotate(45deg);
+}
+
 @media (prefers-reduced-motion: no-preference) {
   @keyframes fadeIn {
     from {

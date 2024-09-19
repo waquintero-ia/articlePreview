@@ -3,8 +3,8 @@ import PropTypes from 'prop-types';
 const SharePopup = ({handleClick}) =>{
   return(
     <>
-      <div className="popup_container absolute w-[100%] h-[74px] bg-blue-900 bottom-0 left-0 flex px-8 justify-center items-center md:px-[40px] md:w-[248px] md:h-[55px] md:rounded-[10px] md:-right-16 md:left-auto md:top-1/2" onClick={handleClick}>
-        <div className="popup_content flex justify-between w-full">
+      <div className="popup_container absolute w-[100%] h-[74px] bg-blue-900 bottom-0 left-0 flex px-8 justify-center items-center md:px-[40px] md:w-[248px] md:h-[55px] md:rounded-[10px] md:-right-16 md:left-auto md:top-[45%]" onClick={handleClick}>
+        <div className="popup_content relative flex justify-between w-full">
           <div className="share_links flex justify-between w-[175px] items-center">
             <div className="links_title uppercase text-[13px] font-medium text-blue-700 tracking-[5px]">
               share
@@ -25,7 +25,11 @@ const SharePopup = ({handleClick}) =>{
             </svg>
           </div>
         </div>
+        <div className="square sm:hidden md:block absolute w-[24px] h-[24px] bg-blue-900 -bottom-3">
+
+        </div>
       </div>
+
     </>
   )
 }
