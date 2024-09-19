@@ -5,7 +5,7 @@ function App() {
 
   return (
     <>
-      <main>
+      <main className='flex justify-center items-center'>
         <Card />
       </main>
     </>
