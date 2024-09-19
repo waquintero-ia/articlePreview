@@ -21,10 +21,10 @@ Users should be able to:
 
 ## Live site
 
-🚀 []()
+🚀 [https://waquintero-ia.github.io/articlePreview/]()
 
 ## Solution URL
-🚀 []()
+🚀 [https://www.frontendmentor.io/solutions/article-preview-component-react-tailwind-djipgKKNDH]()
 
 ## Author
 
