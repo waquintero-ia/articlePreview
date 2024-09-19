@@ -2,7 +2,7 @@ const Description = () =>{
   return(
     <>
       <section className="flex flex-col gap-[12px]">
-        <h1 className="text-blue-900 font-bold leading-[140%] tracking-[0.2px]">
+        <h1 className="text-blue-900 font-bold leading-[140%] tracking-[0.2px] md:text-[20px] md:tracking-[0.25px]">
           Shift the overall look and feel by adding these wonderful 
           touches to furniture in your home
         </h1>
