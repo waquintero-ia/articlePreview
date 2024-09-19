@@ -1,7 +1,6 @@
 import PropTypes from 'prop-types';
 
 const Share = ({handleClick, share}) =>{
-  console.log(share);
   
   return(
     <>
